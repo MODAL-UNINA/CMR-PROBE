@@ -1,0 +1,397 @@
+{
+  "analysis_status": "MATCHED_REPRESENTATION_CONTROL_ABLATION",
+  "basis_dimensions": {
+    "Q_aligned": 39,
+    "Q_raw": 39
+  },
+  "bootstrap": {
+    "internal_unit": "group_id within the original v13 paper test split",
+    "repetitions": 10000,
+    "seed": 20260921,
+    "swap_unit": "paired example"
+  },
+  "conditions": {
+    "aligned_no_proj": "aligned residual without nuisance projection",
+    "aligned_proj": "aligned residual with train-fitted Q_aligned projection",
+    "raw_no_proj": "raw residual without nuisance projection",
+    "raw_proj": "raw residual with train-fitted Q_raw projection"
+  },
+  "difference_in_differences": {
+    "confidence_intervals": {
+      "aligned_no_proj": {
+        "lower": 0.0799991202743377,
+        "upper": 0.13134216088843123
+      },
+      "aligned_proj": {
+        "lower": 0.07484595629138967,
+        "upper": 0.12055439177637434
+      },
+      "raw_no_proj": {
+        "lower": 0.06910301150634761,
+        "upper": 0.11816348854959557
+      },
+      "raw_proj": {
+        "lower": 0.07404698072848541,
+        "upper": 0.12326811284856672
+      }
+    },
+    "point": {
+      "aligned_no_proj": 0.10562295241918446,
+      "aligned_proj": 0.09732390462537176,
+      "raw_no_proj": 0.09368381344977893,
+      "raw_proj": 0.09840648389365124
+    }
+  },
+  "internal": {
+    "C_vs_D_in_family": {
+      "confidence_intervals": {
+        "aligned_no_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "aligned_no_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "aligned_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "aligned_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "raw_no_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "raw_no_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "raw_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "raw_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        }
+      },
+      "metrics": {
+        "aligned_no_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "aligned_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "raw_no_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "raw_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        }
+      },
+      "n": 170,
+      "n_groups": 156,
+      "n_negative": 135,
+      "n_positive": 35
+    },
+    "MSTS_vs_in_family_C": {
+      "confidence_intervals": {
+        "aligned_no_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "aligned_no_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "aligned_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "aligned_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "raw_no_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "raw_no_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "raw_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "raw_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        }
+      },
+      "metrics": {
+        "aligned_no_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "aligned_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "raw_no_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "raw_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        }
+      },
+      "n": 235,
+      "n_groups": 207,
+      "n_negative": 135,
+      "n_positive": 100
+    },
+    "all_categories_in_family": {
+      "confidence_intervals": {
+        "aligned_no_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "aligned_no_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "aligned_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "aligned_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "raw_no_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "raw_no_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        },
+        "raw_proj.pr_auc": {
+          "lower": 0.9999999999999998,
+          "upper": 1.0000000000000002
+        },
+        "raw_proj.roc_auc": {
+          "lower": 0.9999999999999999,
+          "upper": 1.0
+        }
+      },
+      "metrics": {
+        "aligned_no_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "aligned_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "raw_no_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        },
+        "raw_proj": {
+          "pr_auc": 1.0,
+          "roc_auc": 1.0
+        }
+      },
+      "n": 440,
+      "n_groups": 354,
+      "n_negative": 405,
+      "n_positive": 35
+    }
+  },
+  "matched_protocol": {
+    "calibration": "sigmoid on validation only",
+    "classifier": "StandardScaler + LogisticRegression(C=1, class_weight=balanced, random_state=42)",
+    "nuisance_fit": "Q_raw and Q_aligned fitted separately on training only with the same algorithm",
+    "sample_weights": "same source-by-label training weights for every condition",
+    "split": "same original non-group-disjoint v13 paper train/validation/test split",
+    "target": "label_combo",
+    "test_usage": "no test sample used for nuisance fitting, classifier fitting, standardization, or sigmoid calibration"
+  },
+  "paired_swaps": {
+    "SIUO_unsafe": {
+      "confidence_intervals": {
+        "aligned_no_proj.mean_score_change": {
+          "lower": 0.07990977990992776,
+          "upper": 0.1308888642833514
+        },
+        "aligned_no_proj.p_win": {
+          "lower": 0.688622754491018,
+          "upper": 0.8203592814371258
+        },
+        "aligned_proj.mean_score_change": {
+          "lower": 0.0707674998868735,
+          "upper": 0.11648947357688959
+        },
+        "aligned_proj.p_win": {
+          "lower": 0.6646706586826348,
+          "upper": 0.8023952095808383
+        },
+        "raw_no_proj.mean_score_change": {
+          "lower": 0.07374301808095744,
+          "upper": 0.12280950953920593
+        },
+        "raw_no_proj.p_win": {
+          "lower": 0.7125748502994012,
+          "upper": 0.8383233532934131
+        },
+        "raw_proj.mean_score_change": {
+          "lower": 0.07260177524191717,
+          "upper": 0.12143986765631759
+        },
+        "raw_proj.p_win": {
+          "lower": 0.6826347305389222,
+          "upper": 0.8143712574850299
+        }
+      },
+      "point": {
+        "aligned_no_proj": {
+          "mean_score_change": 0.10514396271403191,
+          "median_score_change": 0.06377660008673158,
+          "n_negative_change": 41,
+          "n_positive_change": 126,
+          "n_ties": 0,
+          "p_win": 0.7544910179640718
+        },
+        "aligned_proj": {
+          "mean_score_change": 0.09338722626591049,
+          "median_score_change": 0.06369688112381566,
+          "n_negative_change": 44,
+          "n_positive_change": 123,
+          "n_ties": 0,
+          "p_win": 0.7365269461077845
+        },
+        "raw_no_proj": {
+          "mean_score_change": 0.09840811269897845,
+          "median_score_change": 0.07049301643120784,
+          "n_negative_change": 37,
+          "n_positive_change": 130,
+          "n_ties": 0,
+          "p_win": 0.7784431137724551
+        },
+        "raw_proj": {
+          "mean_score_change": 0.0965947415201423,
+          "median_score_change": 0.05127029760793782,
+          "n_negative_change": 42,
+          "n_positive_change": 125,
+          "n_ties": 0,
+          "p_win": 0.7485029940119761
+        }
+      }
+    },
+    "TextVQA_safe": {
+      "confidence_intervals": {
+        "aligned_no_proj.mean_score_change": {
+          "lower": -0.003268284357305708,
+          "upper": 0.0023619718391649815
+        },
+        "aligned_no_proj.p_win": {
+          "lower": 0.5145454545454545,
+          "upper": 0.5736363636363636
+        },
+        "aligned_proj.mean_score_change": {
+          "lower": -0.005769786488242325,
+          "upper": -0.0020617314470460116
+        },
+        "aligned_proj.p_win": {
+          "lower": 0.4009090909090909,
+          "upper": 0.46090909090909093
+        },
+        "raw_no_proj.mean_score_change": {
+          "lower": 0.0020528325367838714,
+          "upper": 0.00751981788960404
+        },
+        "raw_no_proj.p_win": {
+          "lower": 0.6063636363636363,
+          "upper": 0.6636363636363637
+        },
+        "raw_proj.mean_score_change": {
+          "lower": -0.004135597027284497,
+          "upper": 0.0005350772678795899
+        },
+        "raw_proj.p_win": {
+          "lower": 0.49636363636363634,
+          "upper": 0.5554545454545454
+        }
+      },
+      "point": {
+        "aligned_no_proj": {
+          "mean_score_change": -0.0004789897051525411,
+          "median_score_change": 0.000347433658268705,
+          "n_negative_change": 501,
+          "n_positive_change": 599,
+          "n_ties": 0,
+          "p_win": 0.5445454545454546
+        },
+        "aligned_proj": {
+          "mean_score_change": -0.003936678359461261,
+          "median_score_change": -0.0005301291555899173,
+          "n_negative_change": 626,
+          "n_positive_change": 474,
+          "n_ties": 0,
+          "p_win": 0.4309090909090909
+        },
+        "raw_no_proj": {
+          "mean_score_change": 0.004724299249199518,
+          "median_score_change": 0.0010453802656782672,
+          "n_negative_change": 402,
+          "n_positive_change": 698,
+          "n_ties": 0,
+          "p_win": 0.6345454545454545
+        },
+        "raw_proj": {
+          "mean_score_change": -0.0018117423735089407,
+          "median_score_change": 0.0002123975454842085,
+          "n_negative_change": 522,
+          "n_positive_change": 578,
+          "n_ties": 0,
+          "p_win": 0.5254545454545455
+        }
+      }
+    }
+  },
+  "representation_definition": {
+    "aligned": "L2(L2(h_TV) - L2(h_T))",
+    "raw": "L2(h_TV - h_T)",
+    "token": "same verified final textual prompt token in text-only and multimodal passes"
+  },
+  "software": {
+    "numpy": "2.2.6",
+    "python": "3.10.14 (main, Mar 21 2024, 16:24:04) [GCC 11.2.0]",
+    "scikit_learn": "1.7.2"
+  },
+  "source_artifacts": {
+    "aligned_cache": "<redacted local artifact; verify the recorded SHA-256>",
+    "aligned_cache_usage": "external TextVQA/MM-SafetyBench/SIUO rows and swaps only",
+    "feature_cache_dir": "<redacted local artifact; verify the recorded SHA-256>",
+    "internal_manifest": "<redacted local artifact; verify the recorded SHA-256>",
+    "manifest_split_column": "old_split",
+    "project_root": "<redacted local artifact; verify the recorded SHA-256>",
+    "v13_dataset": "<redacted local artifact; verify the recorded SHA-256>",
+    "v13_internal_aligned_cache_dir": "<redacted local artifact; verify the recorded SHA-256>"
+  },
+  "split_counts": {
+    "test": 540,
+    "train": 2520,
+    "validation": 540
+  }
+}

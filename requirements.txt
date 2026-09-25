@@ -1,0 +1,3 @@
+-r requirements-extraction.txt
+matplotlib>=3.9,<4
+opencv-python-headless>=4.10,<5

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "lineage": "aligned-v13 operational",
+  "models": {
+    "llava": {
+      "model_id": "llava-hf/llava-1.5-7b-hf",
+      "language_layer": 17
+    },
+    "qwen": {
+      "model_id": "Qwen/Qwen2-VL-7B-Instruct",
+      "language_layer": 11,
+      "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac"
+    }
+  },
+  "prompts": {
+    "text": "USER: {text}\\nASSISTANT:",
+    "multimodal": "USER: <image>\\n{text}\\nASSISTANT:"
+  },
+  "representation": {
+    "endpoint": "same verified final textual token in text-only and multimodal passes",
+    "residual": "L2(L2(h_TV_last) - L2(h_T_last))",
+    "nuisance_projection": "(I - Q Q^T) residual; Q fitted on training data only",
+    "post_projection_standardization": false
+  },
+  "fit_and_calibration": {
+    "split": "aligned_v13_split_manifest.csv",
+    "train_examples": 2520,
+    "validation_examples": 540,
+    "internal_test_examples": 540,
+    "probe": "LogisticRegression(C=1.0, solver=lbfgs, max_iter=1000, class_weight=balanced, random_state=42)",
+    "calibration": "sigmoid calibration fitted on validation only after probe fitting"
+  },
+  "evaluation": {
+    "fixed_swap_seed": 20260913,
+    "paired_bootstrap_replicates": 10000,
+    "paired_bootstrap_seed": 20260914,
+    "multiple_mapping_seeds": "20261001-20261020",
+    "hierarchical_bootstrap_seed": 20261031,
+    "probe_refit_for_paired_and_mapping_evaluations": false
+  },
+  "release_gate": "The supplied manifest has the required 2520/540/540 counts but does not match the rerun-lineage SHA-256 recorded in aligned_v13_split_audit.json. Publication is blocked until the authoritative manifest is inserted."
+}

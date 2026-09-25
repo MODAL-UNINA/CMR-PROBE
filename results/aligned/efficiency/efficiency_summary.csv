@@ -1,0 +1,2 @@
+method,dataset,n,latency_mean_ms,latency_median_ms,latency_p95_ms,throughput_samples_s,gpu_peak_allocated_mb_mean,gpu_incremental_peak_mb_mean,major_forward_passes
+Ours-v13,mmstar,100,171.833,160.207,194.237,5.768877,14027.292017,546.743188,3

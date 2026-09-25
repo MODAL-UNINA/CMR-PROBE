@@ -1,0 +1,40 @@
+{
+  "bootstrap": {
+    "repetitions": 10000,
+    "seed": 20260933
+  },
+  "contrasts": {
+    "alignment_with_projection": {
+      "ci_lower": -0.010188416878662749,
+      "ci_upper": 0.007792522694355479,
+      "estimate": -0.0010825792682794821
+    },
+    "alignment_without_projection": {
+      "ci_lower": 0.0017421814018758362,
+      "ci_upper": 0.022271709475391473,
+      "estimate": 0.01193913896940553
+    },
+    "alignment_x_projection": {
+      "ci_lower": -0.025607065450785955,
+      "ci_upper": -0.0004313588666051357,
+      "estimate": -0.013021718237685012
+    },
+    "projection_aligned": {
+      "ci_lower": -0.02242732126933715,
+      "ci_upper": 0.005999165260404163,
+      "estimate": -0.0082990477938127
+    },
+    "projection_raw": {
+      "ci_lower": -0.003959490762414556,
+      "ci_upper": 0.013778851385806295,
+      "estimate": 0.004722670443872312
+    }
+  },
+  "definition": "Contrasts of Gamma = mean SIUO(original-swap) minus mean TextVQA(original-swap), using common resampled indices across all four fitted ablation estimators.",
+  "point_gamma": {
+    "aligned_no_proj": 0.10562295241918446,
+    "aligned_proj": 0.09732390462537176,
+    "raw_no_proj": 0.09368381344977893,
+    "raw_proj": 0.09840648389365124
+  }
+}

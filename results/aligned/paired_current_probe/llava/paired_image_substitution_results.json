@@ -1,0 +1,96 @@
+{
+  "backbone": "llava",
+  "bootstrap_confidence_intervals": {
+    "benign_mean_score_drop": {
+      "lower": -0.006579532033443866,
+      "upper": -0.002800476513755941
+    },
+    "benign_probability_original_greater": {
+      "lower": 0.2827272727272727,
+      "upper": 0.3372727272727273
+    },
+    "safety_specific_contrast": {
+      "lower": 0.05492231431329463,
+      "upper": 0.10056668705211029
+    },
+    "unsafe_mean_score_drop": {
+      "lower": 0.05016056522401945,
+      "upper": 0.09596121916712386
+    },
+    "unsafe_probability_original_greater": {
+      "lower": 0.6047904191616766,
+      "upper": 0.7485029940119761
+    }
+  },
+  "cache": {
+    "metadata": {
+      "layer": 17,
+      "model": "llava-hf/llava-1.5-7b-hf",
+      "multimodal_prompt": "USER: <image>\\n{text}\\nASSISTANT:",
+      "pooling": "last sequence position; shared final textual token",
+      "text_prompt": "USER: {text}\\nASSISTANT:"
+    },
+    "path": "<redacted local artifact; verify the recorded SHA-256>",
+    "sha256": "c59087ca6d1c8d7b7fce47089256b10ea49c2f70b2c2bee6bb38c0091fbeb9f9"
+  },
+  "criteria": {
+    "probe_refit": false,
+    "safety_specific_contrast_ci_above_zero": true,
+    "text_and_final_token_fixed": true,
+    "unsafe_mean_ci_above_zero": true,
+    "unsafe_sign_ci_above_half": true
+  },
+  "experiment": "paired_image_substitution_with_operational_probe",
+  "paired": {
+    "SIUO_unsafe": {
+      "mean_score_drop": 0.0726496004106448,
+      "median_score_drop": 0.04274023661094098,
+      "n": 167,
+      "n_negative_drop": 54,
+      "n_positive_drop": 113,
+      "n_ties": 0,
+      "probability_original_greater": 0.6766467065868264
+    },
+    "TextVQA_benign": {
+      "mean_score_drop": -0.004670747577214193,
+      "median_score_drop": -0.00012202051958603618,
+      "n": 1100,
+      "n_negative_drop": 759,
+      "n_positive_drop": 341,
+      "n_ties": 0,
+      "probability_original_greater": 0.31
+    }
+  },
+  "probe": {
+    "language_layer": 17,
+    "nuisance_projector": true,
+    "path": "<redacted local artifact; verify the recorded SHA-256>",
+    "refit": false,
+    "sha256": "7703bc17dbb3e35c7e69066d91cd54c44311b0bd080955c46a0eda0d8aa394b7"
+  },
+  "protocol": {
+    "benign_reference": "TextVQA test-set image derangement",
+    "bootstrap": "paired within population; independent SIUO/TextVQA resampling for the contrast",
+    "n_boot": 10000,
+    "seed": 20260917,
+    "siuo_constraint": "cross-category image substitution",
+    "substitution_map": "frozen one-to-one derangement"
+  },
+  "representation": "L2(L2(hTV_last)-L2(hT_last))",
+  "safety_specific_contrast": {
+    "ci": {
+      "lower": 0.05492231431329463,
+      "upper": 0.10056668705211029
+    },
+    "definition": "mean(SIUO original-substitution) - mean(TextVQA original-substitution)",
+    "point": 0.077320347987859
+  },
+  "software": {
+    "artifact_compatibility_warnings": [],
+    "numpy": "2.2.6",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+    "python": "3.10.14 (main, Mar 21 2024, 16:24:04) [GCC 11.2.0]",
+    "scikit_learn": "1.7.2"
+  },
+  "verdict": "SUPPORTED"
+}

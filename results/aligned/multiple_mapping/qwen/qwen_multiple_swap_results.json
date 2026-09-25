@@ -1,0 +1,245 @@
+{
+  "aggregate": {
+    "benign_mean_drop": {
+      "max": 0.00016338577841840468,
+      "mean": -1.943832900202577e-05,
+      "min": -0.0002579288066306339,
+      "std_across_mappings": 0.00010575745960367838
+    },
+    "gamma": {
+      "max": 0.05913314061708096,
+      "mean": 0.048257703649922504,
+      "min": 0.028371067764781068,
+      "std_across_mappings": 0.00791911351881842
+    },
+    "hierarchical_bootstrap_95ci": {
+      "benign_mean_drop": {
+        "lower": -0.0002544741739344825,
+        "upper": 0.00016593729315083906
+      },
+      "gamma": {
+        "lower": 0.022249884777557166,
+        "upper": 0.07387829461324392
+      },
+      "probability_original_greater": {
+        "lower": 0.5574850299401197,
+        "upper": 0.6586826347305389
+      },
+      "siuo_mean_drop": {
+        "lower": 0.022242314323478438,
+        "upper": 0.07398930592891925
+      }
+    },
+    "probability_original_greater": {
+      "max": 0.6706586826347305,
+      "mean": 0.6083832335329341,
+      "min": 0.5508982035928144,
+      "std_across_mappings": 0.025503640046762702
+    },
+    "siuo_mean_drop": {
+      "max": 0.059203122687015705,
+      "mean": 0.04823826532092048,
+      "min": 0.028443403137192548,
+      "std_across_mappings": 0.007891386380131395
+    }
+  },
+  "backbone": "qwen",
+  "base_cache": "<redacted local artifact; verify the recorded SHA-256>",
+  "base_cache_sha256": "8e6a49ca142cae4e2fac4bc2b46f5e0f260c3673502356f62aa104209786a906",
+  "bootstrap": {
+    "confidence_level": 0.95,
+    "method": "hierarchical resampling of mappings and shared source IDs",
+    "repetitions": 10000,
+    "seed": 20261031
+  },
+  "experiment": "aligned_v13_operational_multiple_swap_mappings",
+  "identity_checks": [
+    {
+      "cosine": 1.0,
+      "label": "SIUO original",
+      "relative_l2": 0.0
+    },
+    {
+      "cosine": 1.0,
+      "label": "TextVQA original",
+      "relative_l2": 0.0
+    }
+  ],
+  "language_layer": 11,
+  "lineage": "aligned-v13 operational",
+  "mapping_manifest": "<redacted local artifact; verify the recorded SHA-256>",
+  "mapping_manifest_sha256": "00fd3a1bb26697f08d5fdfaa80b2ac3845ffccd0f0b909aa580ede5e4ad3bbfd",
+  "mapping_seeds": [
+    20261001,
+    20261002,
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012,
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019,
+    20261020
+  ],
+  "model_id": "Qwen/Qwen2-VL-7B-Instruct",
+  "n_mappings": 20,
+  "per_mapping": [
+    {
+      "benign_mean_drop": -0.00022023545839655736,
+      "gamma": 0.04226293740628744,
+      "probability_original_greater": 0.6047904191616766,
+      "seed": 20261001,
+      "siuo_mean_drop": 0.042042701947890886
+    },
+    {
+      "benign_mean_drop": 3.4927789541715704e-05,
+      "gamma": 0.050793349040071545,
+      "probability_original_greater": 0.6227544910179641,
+      "seed": 20261002,
+      "siuo_mean_drop": 0.05082827682961326
+    },
+    {
+      "benign_mean_drop": 5.0504347591597374e-05,
+      "gamma": 0.05571343393574894,
+      "probability_original_greater": 0.6167664670658682,
+      "seed": 20261003,
+      "siuo_mean_drop": 0.05576393828334054
+    },
+    {
+      "benign_mean_drop": 8.286838630193274e-06,
+      "gamma": 0.046747176381696134,
+      "probability_original_greater": 0.6347305389221557,
+      "seed": 20261004,
+      "siuo_mean_drop": 0.04675546322032633
+    },
+    {
+      "benign_mean_drop": 7.791428400661019e-06,
+      "gamma": 0.040373887548363435,
+      "probability_original_greater": 0.6047904191616766,
+      "seed": 20261005,
+      "siuo_mean_drop": 0.0403816789767641
+    },
+    {
+      "benign_mean_drop": -0.00017565409080034434,
+      "gamma": 0.05675930052851843,
+      "probability_original_greater": 0.6047904191616766,
+      "seed": 20261006,
+      "siuo_mean_drop": 0.056583646437718085
+    },
+    {
+      "benign_mean_drop": -5.257315573295284e-05,
+      "gamma": 0.055706964486212124,
+      "probability_original_greater": 0.592814371257485,
+      "seed": 20261007,
+      "siuo_mean_drop": 0.05565439133047917
+    },
+    {
+      "benign_mean_drop": 3.233599735281297e-05,
+      "gamma": 0.04188297372434408,
+      "probability_original_greater": 0.5988023952095808,
+      "seed": 20261008,
+      "siuo_mean_drop": 0.041915309721696895
+    },
+    {
+      "benign_mean_drop": 7.233537241147895e-05,
+      "gamma": 0.028371067764781068,
+      "probability_original_greater": 0.5508982035928144,
+      "seed": 20261009,
+      "siuo_mean_drop": 0.028443403137192548
+    },
+    {
+      "benign_mean_drop": -9.411383586802682e-05,
+      "gamma": 0.05569437119627055,
+      "probability_original_greater": 0.6167664670658682,
+      "seed": 20261010,
+      "siuo_mean_drop": 0.05560025736040252
+    },
+    {
+      "benign_mean_drop": -4.1240728438691126e-05,
+      "gamma": 0.052084274629837,
+      "probability_original_greater": 0.6107784431137725,
+      "seed": 20261011,
+      "siuo_mean_drop": 0.05204303390139831
+    },
+    {
+      "benign_mean_drop": -0.0002579288066306339,
+      "gamma": 0.05829752061381176,
+      "probability_original_greater": 0.6706586826347305,
+      "seed": 20261012,
+      "siuo_mean_drop": 0.05803959180718112
+    },
+    {
+      "benign_mean_drop": 5.692771825092646e-05,
+      "gamma": 0.049082353844783315,
+      "probability_original_greater": 0.5868263473053892,
+      "seed": 20261013,
+      "siuo_mean_drop": 0.049139281563034244
+    },
+    {
+      "benign_mean_drop": -0.00012338976923004046,
+      "gamma": 0.043042426697639635,
+      "probability_original_greater": 0.5748502994011976,
+      "seed": 20261014,
+      "siuo_mean_drop": 0.04291903692840959
+    },
+    {
+      "benign_mean_drop": 6.99820699347439e-05,
+      "gamma": 0.05913314061708096,
+      "probability_original_greater": 0.5988023952095808,
+      "seed": 20261015,
+      "siuo_mean_drop": 0.059203122687015705
+    },
+    {
+      "benign_mean_drop": 6.539256627327354e-05,
+      "gamma": 0.04663538243743851,
+      "probability_original_greater": 0.6227544910179641,
+      "seed": 20261016,
+      "siuo_mean_drop": 0.04670077500371179
+    },
+    {
+      "benign_mean_drop": -7.446353954997452e-06,
+      "gamma": 0.03505004041610185,
+      "probability_original_greater": 0.5748502994011976,
+      "seed": 20261017,
+      "siuo_mean_drop": 0.03504259406214685
+    },
+    {
+      "benign_mean_drop": -4.916721747642397e-05,
+      "gamma": 0.05316731288855841,
+      "probability_original_greater": 0.6107784431137725,
+      "seed": 20261018,
+      "siuo_mean_drop": 0.05311814567108199
+    },
+    {
+      "benign_mean_drop": 0.00016338577841840468,
+      "gamma": 0.04523339803330528,
+      "probability_original_greater": 0.6347305389221557,
+      "seed": 20261019,
+      "siuo_mean_drop": 0.04539678381172369
+    },
+    {
+      "benign_mean_drop": 7.111292968234498e-05,
+      "gamma": 0.04912276080759965,
+      "probability_original_greater": 0.6347305389221557,
+      "seed": 20261020,
+      "siuo_mean_drop": 0.04919387373728199
+    }
+  ],
+  "probe": "<redacted local artifact; verify the recorded SHA-256>",
+  "probe_refit": false,
+  "probe_sha256": "ed64e451b57cc8aefd8dea421608fd147ef2125be9426a43d56d013b222a4f4e",
+  "representation": "L2(L2(hTV_last)-L2(hT_last))",
+  "resolved_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "siuo_n": 167,
+  "textvqa_n": 1100
+}

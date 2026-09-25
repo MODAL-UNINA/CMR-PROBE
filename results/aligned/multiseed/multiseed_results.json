@@ -1,0 +1,377 @@
+{
+  "runs": [
+    {
+      "benchmark": "MSTS_MMStar",
+      "full_balanced_accuracy": 0.94775,
+      "full_f1": 0.6953,
+      "full_fpr": 0.0745,
+      "full_precision": 0.5419,
+      "full_tpr": 0.97,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_123/probes/delta/evaluation_results_v13_internal.json",
+      "sc_auc": 1.0,
+      "sc_fpr": 0.0,
+      "sc_tpr": 0.97,
+      "seed": 123,
+      "tau_C": 0.7905,
+      "tau_T": 0.8939,
+      "tau_V": 0.3243
+    },
+    {
+      "adapted_full_balanced_accuracy": 0.5775,
+      "adapted_full_f1": 0.3424,
+      "adapted_full_fpr": 0.065,
+      "adapted_full_tpr": 0.22,
+      "adapted_sc_auc": 0.8279,
+      "benchmark": "MMSafety_TextVQA",
+      "full_balanced_accuracy": 0.8325,
+      "full_f1": 0.8123,
+      "full_fpr": 0.06,
+      "full_precision": 0.9236,
+      "full_tpr": 0.725,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_123/probes/delta/evaluation_results_2_internal_prova.json",
+      "sc_auc": 0.7752,
+      "sc_fpr": 0.02,
+      "sc_tpr": 0.375,
+      "seed": 123,
+      "tau_C": 0.7905,
+      "tau_T": 0.8939,
+      "tau_V": 0.3243
+    },
+    {
+      "benchmark": "MSTS_MMStar",
+      "full_balanced_accuracy": 0.9359,
+      "full_f1": 0.6183,
+      "full_fpr": 0.1082,
+      "full_precision": 0.4516,
+      "full_tpr": 0.98,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_456/probes/delta/evaluation_results_v13_internal.json",
+      "sc_auc": 1.0,
+      "sc_fpr": 0.0,
+      "sc_tpr": 0.98,
+      "seed": 456,
+      "tau_C": 0.7149,
+      "tau_T": 0.7528,
+      "tau_V": 0.2984
+    },
+    {
+      "adapted_full_balanced_accuracy": 0.5925,
+      "adapted_full_f1": 0.3802,
+      "adapted_full_fpr": 0.065,
+      "adapted_full_tpr": 0.25,
+      "adapted_sc_auc": 0.8319,
+      "benchmark": "MMSafety_TextVQA",
+      "full_balanced_accuracy": 0.8200000000000001,
+      "full_f1": 0.8011,
+      "full_fpr": 0.085,
+      "full_precision": 0.8951,
+      "full_tpr": 0.725,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_456/probes/delta/evaluation_results_2_internal_prova.json",
+      "sc_auc": 0.7825,
+      "sc_fpr": 0.035,
+      "sc_tpr": 0.365,
+      "seed": 456,
+      "tau_C": 0.7149,
+      "tau_T": 0.7528,
+      "tau_V": 0.2984
+    },
+    {
+      "benchmark": "MSTS_MMStar",
+      "full_balanced_accuracy": 0.95545,
+      "full_f1": 0.6923,
+      "full_fpr": 0.0791,
+      "full_precision": 0.5323,
+      "full_tpr": 0.99,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_789/probes/delta/evaluation_results_v13_internal.json",
+      "sc_auc": 1.0,
+      "sc_fpr": 0.0,
+      "sc_tpr": 0.99,
+      "seed": 789,
+      "tau_C": 0.6972,
+      "tau_T": 0.7751,
+      "tau_V": 0.2682
+    },
+    {
+      "adapted_full_balanced_accuracy": 0.6025,
+      "adapted_full_f1": 0.3614,
+      "adapted_full_fpr": 0.02,
+      "adapted_full_tpr": 0.225,
+      "adapted_sc_auc": 0.8187,
+      "benchmark": "MMSafety_TextVQA",
+      "full_balanced_accuracy": 0.8075,
+      "full_f1": 0.7819,
+      "full_fpr": 0.075,
+      "full_precision": 0.902,
+      "full_tpr": 0.69,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_789/probes/delta/evaluation_results_2_internal_prova.json",
+      "sc_auc": 0.7741,
+      "sc_fpr": 0.035,
+      "sc_tpr": 0.36,
+      "seed": 789,
+      "tau_C": 0.6972,
+      "tau_T": 0.7751,
+      "tau_V": 0.2682
+    },
+    {
+      "benchmark": "MSTS_MMStar",
+      "full_balanced_accuracy": 0.9732000000000001,
+      "full_f1": 0.7722,
+      "full_fpr": 0.0536,
+      "full_precision": 0.6289,
+      "full_tpr": 1.0,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_2026/probes/delta/evaluation_results_v13_internal.json",
+      "sc_auc": 1.0,
+      "sc_fpr": 0.0,
+      "sc_tpr": 1.0,
+      "seed": 2026,
+      "tau_C": 0.6823,
+      "tau_T": 0.6949,
+      "tau_V": 0.4515
+    },
+    {
+      "adapted_full_balanced_accuracy": 0.5675,
+      "adapted_full_f1": 0.3162,
+      "adapted_full_fpr": 0.065,
+      "adapted_full_tpr": 0.2,
+      "adapted_sc_auc": 0.8194,
+      "benchmark": "MMSafety_TextVQA",
+      "full_balanced_accuracy": 0.81,
+      "full_f1": 0.7765,
+      "full_fpr": 0.04,
+      "full_precision": 0.9429,
+      "full_tpr": 0.66,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_2026/probes/delta/evaluation_results_2_internal_prova.json",
+      "sc_auc": 0.7847,
+      "sc_fpr": 0.035,
+      "sc_tpr": 0.37,
+      "seed": 2026,
+      "tau_C": 0.6823,
+      "tau_T": 0.6949,
+      "tau_V": 0.4515
+    },
+    {
+      "benchmark": "MSTS_MMStar",
+      "full_balanced_accuracy": 0.96225,
+      "full_f1": 0.7067,
+      "full_fpr": 0.0755,
+      "full_precision": 0.5464,
+      "full_tpr": 1.0,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_7/probes/delta/evaluation_results_v13_internal.json",
+      "sc_auc": 1.0,
+      "sc_fpr": 0.0,
+      "sc_tpr": 1.0,
+      "seed": 7,
+      "tau_C": 0.6775,
+      "tau_T": 0.7524,
+      "tau_V": 0.4121
+    },
+    {
+      "adapted_full_balanced_accuracy": 0.5750000000000001,
+      "adapted_full_f1": 0.3359,
+      "adapted_full_fpr": 0.065,
+      "adapted_full_tpr": 0.215,
+      "adapted_sc_auc": 0.8106,
+      "benchmark": "MMSafety_TextVQA",
+      "full_balanced_accuracy": 0.7925,
+      "full_f1": 0.7594,
+      "full_fpr": 0.07,
+      "full_precision": 0.9034,
+      "full_tpr": 0.655,
+      "result_file": "<project-root>/probes/multiseed_v13/seed_7/probes/delta/evaluation_results_2_internal_prova.json",
+      "sc_auc": 0.7738,
+      "sc_fpr": 0.035,
+      "sc_tpr": 0.36,
+      "seed": 7,
+      "tau_C": 0.6775,
+      "tau_T": 0.7524,
+      "tau_V": 0.4121
+    }
+  ],
+  "summary": {
+    "MMSafety_TextVQA": {
+      "metrics": {
+        "adapted_full_balanced_accuracy": {
+          "max": 0.6025,
+          "mean": 0.583,
+          "min": 0.5675,
+          "std": 0.014186260959111113
+        },
+        "adapted_full_f1": {
+          "max": 0.3802,
+          "mean": 0.34722,
+          "min": 0.3162,
+          "std": 0.024506978597942264
+        },
+        "adapted_full_fpr": {
+          "max": 0.065,
+          "mean": 0.05600000000000001,
+          "min": 0.02,
+          "std": 0.020124611797498106
+        },
+        "adapted_full_tpr": {
+          "max": 0.25,
+          "mean": 0.22200000000000003,
+          "min": 0.2,
+          "std": 0.018234582528810467
+        },
+        "adapted_sc_auc": {
+          "max": 0.8319,
+          "mean": 0.8216999999999999,
+          "min": 0.8106,
+          "std": 0.00836630145285238
+        },
+        "full_balanced_accuracy": {
+          "max": 0.8325,
+          "mean": 0.8125,
+          "min": 0.7925,
+          "std": 0.01489546910976625
+        },
+        "full_f1": {
+          "max": 0.8123,
+          "mean": 0.7862399999999999,
+          "min": 0.7594,
+          "std": 0.020820854929613268
+        },
+        "full_fpr": {
+          "max": 0.085,
+          "mean": 0.066,
+          "min": 0.04,
+          "std": 0.01710263137648707
+        },
+        "full_precision": {
+          "max": 0.9429,
+          "mean": 0.9134,
+          "min": 0.8951,
+          "std": 0.019615937397942502
+        },
+        "full_tpr": {
+          "max": 0.725,
+          "mean": 0.6910000000000001,
+          "min": 0.655,
+          "std": 0.033800887562311116
+        },
+        "sc_auc": {
+          "max": 0.7847,
+          "mean": 0.7780600000000001,
+          "min": 0.7738,
+          "std": 0.005143248001020335
+        },
+        "sc_fpr": {
+          "max": 0.035,
+          "mean": 0.032,
+          "min": 0.02,
+          "std": 0.00670820393249937
+        },
+        "sc_tpr": {
+          "max": 0.375,
+          "mean": 0.366,
+          "min": 0.36,
+          "std": 0.006519202405202654
+        },
+        "tau_C": {
+          "max": 0.7905,
+          "mean": 0.71248,
+          "min": 0.6775,
+          "std": 0.04599154270080531
+        },
+        "tau_T": {
+          "max": 0.8939,
+          "mean": 0.7738200000000001,
+          "min": 0.6949,
+          "std": 0.0733993664822797
+        },
+        "tau_V": {
+          "max": 0.4515,
+          "mean": 0.35090000000000005,
+          "min": 0.2682,
+          "std": 0.07773175026975786
+        }
+      },
+      "n_seeds": 5,
+      "seeds": [
+        123,
+        456,
+        789,
+        2026,
+        7
+      ]
+    },
+    "MSTS_MMStar": {
+      "metrics": {
+        "full_balanced_accuracy": {
+          "max": 0.9732000000000001,
+          "mean": 0.9549099999999999,
+          "min": 0.9359,
+          "std": 0.014153948212424734
+        },
+        "full_f1": {
+          "max": 0.7722,
+          "mean": 0.69696,
+          "min": 0.6183,
+          "std": 0.05469870199556842
+        },
+        "full_fpr": {
+          "max": 0.1082,
+          "mean": 0.07818,
+          "min": 0.0536,
+          "std": 0.019538091001937728
+        },
+        "full_precision": {
+          "max": 0.6289,
+          "mean": 0.54022,
+          "min": 0.4516,
+          "std": 0.06289154951183824
+        },
+        "full_tpr": {
+          "max": 1.0,
+          "mean": 0.9879999999999999,
+          "min": 0.97,
+          "std": 0.01303840481040531
+        },
+        "sc_auc": {
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "std": 0.0
+        },
+        "sc_fpr": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "std": 0.0
+        },
+        "sc_tpr": {
+          "max": 1.0,
+          "mean": 0.9879999999999999,
+          "min": 0.97,
+          "std": 0.01303840481040531
+        },
+        "tau_C": {
+          "max": 0.7905,
+          "mean": 0.71248,
+          "min": 0.6775,
+          "std": 0.04599154270080531
+        },
+        "tau_T": {
+          "max": 0.8939,
+          "mean": 0.7738200000000001,
+          "min": 0.6949,
+          "std": 0.0733993664822797
+        },
+        "tau_V": {
+          "max": 0.4515,
+          "mean": 0.35090000000000005,
+          "min": 0.2682,
+          "std": 0.07773175026975786
+        }
+      },
+      "n_seeds": 5,
+      "seeds": [
+        123,
+        456,
+        789,
+        2026,
+        7
+      ]
+    }
+  }
+}

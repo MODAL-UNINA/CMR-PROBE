@@ -1,0 +1,163 @@
+{
+  "experiment": {
+    "clip_layer": 21,
+    "dataset": "mmstar",
+    "gpu_id": 3,
+    "llama_layer": 17,
+    "pipeline": "v13 frozen internal probes",
+    "requested_samples": 100,
+    "seed": 42,
+    "successful_samples": 100,
+    "warmup_samples": 10
+  },
+  "forward_passes_per_sample": {
+    "multimodal_llama": 1,
+    "text_only_llama": 1,
+    "total_major_forward_passes": 3,
+    "vision_tower": 1
+  },
+  "latency_ms": {
+    "combo_mean": 130.454,
+    "fusion_mean": 0.006,
+    "text_mean": 30.1,
+    "total_mean": 171.833,
+    "total_median": 160.207,
+    "total_p95": 194.237,
+    "visual_mean": 11.273
+  },
+  "latency_seconds": {
+    "combo": {
+      "max": 0.558873,
+      "mean": 0.130454,
+      "median": 0.121288,
+      "min": 0.116572,
+      "n": 100,
+      "p25": 0.11979,
+      "p75": 0.131815,
+      "p90": 0.135457,
+      "p95": 0.140925,
+      "std": 0.043744
+    },
+    "fusion": {
+      "max": 7e-06,
+      "mean": 6e-06,
+      "median": 5e-06,
+      "min": 5e-06,
+      "n": 100,
+      "p25": 5e-06,
+      "p75": 6e-06,
+      "p90": 6e-06,
+      "p95": 6e-06,
+      "std": 0.0
+    },
+    "text": {
+      "max": 0.056204,
+      "mean": 0.0301,
+      "median": 0.028297,
+      "min": 0.026315,
+      "n": 100,
+      "p25": 0.026707,
+      "p75": 0.030226,
+      "p90": 0.041162,
+      "p95": 0.042458,
+      "std": 0.005563
+    },
+    "total": {
+      "max": 0.604263,
+      "mean": 0.171833,
+      "median": 0.160207,
+      "min": 0.152209,
+      "n": 100,
+      "p25": 0.156924,
+      "p75": 0.172857,
+      "p90": 0.188828,
+      "p95": 0.194237,
+      "std": 0.045545
+    },
+    "visual": {
+      "max": 0.032451,
+      "mean": 0.011273,
+      "median": 0.00998,
+      "min": 0.009083,
+      "n": 100,
+      "p25": 0.00952,
+      "p75": 0.010867,
+      "p90": 0.01441,
+      "p95": 0.017314,
+      "std": 0.003795
+    }
+  },
+  "memory_mb": {
+    "incremental_peak_allocated": {
+      "max": 685.678223,
+      "mean": 546.743188,
+      "median": 528.795898,
+      "min": 515.529785,
+      "n": 100,
+      "p25": 521.126587,
+      "p75": 561.953125,
+      "p90": 596.144385,
+      "p95": 617.172339,
+      "std": 35.224493
+    },
+    "incremental_peak_reserved": {
+      "max": 902.0,
+      "mean": 894.94,
+      "median": 902.0,
+      "min": 754.0,
+      "n": 100,
+      "p25": 902.0,
+      "p75": 902.0,
+      "p90": 902.0,
+      "p95": 902.0,
+      "std": 19.956863
+    },
+    "peak_allocated": {
+      "max": 14166.227051,
+      "mean": 14027.292017,
+      "median": 14009.344727,
+      "min": 13996.078613,
+      "n": 100,
+      "p25": 14001.675415,
+      "p75": 14042.501953,
+      "p90": 14076.693213,
+      "p95": 14097.721167,
+      "std": 35.224493
+    },
+    "peak_reserved": {
+      "max": 14398.0,
+      "mean": 14390.94,
+      "median": 14398.0,
+      "min": 14250.0,
+      "n": 100,
+      "p25": 14398.0,
+      "p75": 14398.0,
+      "p90": 14398.0,
+      "p95": 14398.0,
+      "std": 19.956863
+    },
+    "warmed_model_allocated": 13480.549,
+    "warmed_model_reserved": 13496.0
+  },
+  "model": {
+    "total_parameters": 7063427072,
+    "trainable_parameters_at_inference": 7063427072
+  },
+  "notes": [
+    "Dataset loading time is excluded.",
+    "Warm-up samples are excluded from latency statistics.",
+    "CUDA synchronization is performed around every timed block.",
+    "Memory is measured after warm-up to avoid counting one-time CUDA initialization.",
+    "Incremental peak memory is measured relative to the warmed model footprint.",
+    "Probe inference and cross-modal residual computation are included."
+  ],
+  "thresholds": {
+    "tau_C": 0.5121,
+    "tau_T": 0.6869,
+    "tau_V": 0.3196
+  },
+  "throughput": {
+    "samples_per_second_from_mean_latency": 5.819612,
+    "samples_per_second_wall_clock": 5.768877
+  }
+}

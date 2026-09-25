@@ -1,0 +1,201 @@
+{
+  "benchmark": "MM-SafetyBench SD / TextVQA",
+  "methods": {
+    "GEOMETRIC": {
+      "operating_points": {
+        "fpr_01": {
+          "calibration_fpr": 0.01,
+          "calibration_tpr": 0.04,
+          "target_fpr": 0.01,
+          "tau": 0.9783793269055727,
+          "test": {
+            "balanced_accuracy": 0.5111363636363636,
+            "f1": 0.04807692307692307,
+            "fn": 195,
+            "fp": 3,
+            "fpr": 0.0027272727272727275,
+            "pr_auc": 0.39477121403247784,
+            "precision": 0.625,
+            "recall": 0.025,
+            "roc_auc": 0.6852772727272727,
+            "tau": 0.9783793269055727,
+            "tn": 1097,
+            "tp": 5,
+            "tpr": 0.025
+          }
+        },
+        "fpr_05": {
+          "calibration_fpr": 0.05,
+          "calibration_tpr": 0.32,
+          "target_fpr": 0.05,
+          "tau": 0.36827573728365104,
+          "test": {
+            "balanced_accuracy": 0.62,
+            "f1": 0.3680981595092025,
+            "fn": 140,
+            "fp": 66,
+            "fpr": 0.06,
+            "pr_auc": 0.39477121403247784,
+            "precision": 0.47619047619047616,
+            "recall": 0.3,
+            "roc_auc": 0.6852772727272727,
+            "tau": 0.36827573728365104,
+            "tn": 1034,
+            "tp": 60,
+            "tpr": 0.3
+          }
+        }
+      }
+    },
+    "LEARNED": {
+      "operating_points": {
+        "fpr_01": {
+          "calibration_fpr": 0.01,
+          "calibration_tpr": 0.24,
+          "target_fpr": 0.01,
+          "tau": 0.968074108190456,
+          "test": {
+            "balanced_accuracy": 0.571590909090909,
+            "f1": 0.2540983606557377,
+            "fn": 169,
+            "fp": 13,
+            "fpr": 0.011818181818181818,
+            "pr_auc": 0.5686118589838032,
+            "precision": 0.7045454545454546,
+            "recall": 0.155,
+            "roc_auc": 0.8688863636363636,
+            "tau": 0.968074108190456,
+            "tn": 1087,
+            "tp": 31,
+            "tpr": 0.155
+          }
+        },
+        "fpr_05": {
+          "calibration_fpr": 0.05,
+          "calibration_tpr": 0.62,
+          "target_fpr": 0.05,
+          "tau": 0.701225463724294,
+          "test": {
+            "balanced_accuracy": 0.7406818181818182,
+            "f1": 0.5949008498583569,
+            "fn": 95,
+            "fp": 48,
+            "fpr": 0.04363636363636364,
+            "pr_auc": 0.5686118589838032,
+            "precision": 0.6862745098039216,
+            "recall": 0.525,
+            "roc_auc": 0.8688863636363636,
+            "tau": 0.701225463724294,
+            "tn": 1052,
+            "tp": 105,
+            "tpr": 0.525
+          }
+        }
+      }
+    },
+    "S_C": {
+      "operating_points": {
+        "fpr_01": {
+          "calibration_fpr": 0.01,
+          "calibration_tpr": 0.12,
+          "target_fpr": 0.01,
+          "tau": 0.01796129286944009,
+          "test": {
+            "balanced_accuracy": 0.5206818181818181,
+            "f1": 0.09734513274336283,
+            "fn": 189,
+            "fp": 15,
+            "fpr": 0.013636363636363636,
+            "pr_auc": 0.4501309611736069,
+            "precision": 0.4230769230769231,
+            "recall": 0.055,
+            "roc_auc": 0.8148454545454547,
+            "tau": 0.01796129286944009,
+            "tn": 1085,
+            "tp": 11,
+            "tpr": 0.055
+          }
+        },
+        "fpr_05": {
+          "calibration_fpr": 0.05,
+          "calibration_tpr": 0.38,
+          "target_fpr": 0.05,
+          "tau": 0.004799872128701338,
+          "test": {
+            "balanced_accuracy": 0.6402272727272728,
+            "f1": 0.41860465116279066,
+            "fn": 137,
+            "fp": 38,
+            "fpr": 0.034545454545454546,
+            "pr_auc": 0.4501309611736069,
+            "precision": 0.6237623762376238,
+            "recall": 0.315,
+            "roc_auc": 0.8148454545454547,
+            "tau": 0.004799872128701338,
+            "tn": 1062,
+            "tp": 63,
+            "tpr": 0.315
+          }
+        }
+      }
+    },
+    "S_T+S_V": {
+      "operating_points": {
+        "fpr_01": {
+          "calibration_fpr": 0.01,
+          "calibration_tpr": 0.04,
+          "target_fpr": 0.01,
+          "tau": 0.9783793269055727,
+          "test": {
+            "balanced_accuracy": 0.5111363636363636,
+            "f1": 0.04807692307692307,
+            "fn": 195,
+            "fp": 3,
+            "fpr": 0.0027272727272727275,
+            "pr_auc": 0.3951632525661584,
+            "precision": 0.625,
+            "recall": 0.025,
+            "roc_auc": 0.6744318181818182,
+            "tau": 0.9783793269055727,
+            "tn": 1097,
+            "tp": 5,
+            "tpr": 0.025
+          }
+        },
+        "fpr_05": {
+          "calibration_fpr": 0.05,
+          "calibration_tpr": 0.32,
+          "target_fpr": 0.05,
+          "tau": 0.36827573728365104,
+          "test": {
+            "balanced_accuracy": 0.6184090909090909,
+            "f1": 0.3653250773993808,
+            "fn": 141,
+            "fp": 64,
+            "fpr": 0.05818181818181818,
+            "pr_auc": 0.3951632525661584,
+            "precision": 0.4796747967479675,
+            "recall": 0.295,
+            "roc_auc": 0.6744318181818182,
+            "tau": 0.36827573728365104,
+            "tn": 1036,
+            "tp": 59,
+            "tpr": 0.295
+          }
+        }
+      }
+    }
+  },
+  "n_samples": {
+    "safe": 1100,
+    "unsafe": 200
+  },
+  "protocol": {
+    "common_fpr": true,
+    "primary_target_fpr": 0.05,
+    "quantile_matching": false,
+    "secondary_target_fpr": 0.01,
+    "test_adaptation": false,
+    "threshold_selected_on_test": false
+  }
+}

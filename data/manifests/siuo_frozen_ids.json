@@ -1,0 +1,841 @@
+{
+  "count": 167,
+  "description": "Frozen SIUO unsafe evaluation IDs used by the paired image-swap protocol.",
+  "rows": [
+    {
+      "category": "self-harm",
+      "original_index": 0,
+      "question_id": "1001"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 1,
+      "question_id": "1002"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 2,
+      "question_id": "1003"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 3,
+      "question_id": "1004"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 4,
+      "question_id": "1005"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 5,
+      "question_id": "1006"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 6,
+      "question_id": "1007"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 7,
+      "question_id": "1008"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 8,
+      "question_id": "1009"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 9,
+      "question_id": "1010"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 10,
+      "question_id": "1011"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 11,
+      "question_id": "1012"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 12,
+      "question_id": "1013"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 13,
+      "question_id": "1014"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 14,
+      "question_id": "1015"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 15,
+      "question_id": "1016"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 16,
+      "question_id": "1017"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 17,
+      "question_id": "1018"
+    },
+    {
+      "category": "self-harm",
+      "original_index": 18,
+      "question_id": "1019"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 19,
+      "question_id": "2001"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 20,
+      "question_id": "2002"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 21,
+      "question_id": "2003"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 22,
+      "question_id": "2004"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 23,
+      "question_id": "2005"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 24,
+      "question_id": "2006"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 25,
+      "question_id": "2007"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 26,
+      "question_id": "2008"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 27,
+      "question_id": "2009"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 28,
+      "question_id": "2010"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 29,
+      "question_id": "2011"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 30,
+      "question_id": "2012"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 31,
+      "question_id": "2013"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 32,
+      "question_id": "2014"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 33,
+      "question_id": "2015"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 34,
+      "question_id": "2016"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 35,
+      "question_id": "2017"
+    },
+    {
+      "category": "dangerous behavior",
+      "original_index": 36,
+      "question_id": "2018"
+    },
+    {
+      "category": "morality",
+      "original_index": 37,
+      "question_id": "3001"
+    },
+    {
+      "category": "morality",
+      "original_index": 38,
+      "question_id": "3002"
+    },
+    {
+      "category": "morality",
+      "original_index": 39,
+      "question_id": "3003"
+    },
+    {
+      "category": "morality",
+      "original_index": 40,
+      "question_id": "3004"
+    },
+    {
+      "category": "morality",
+      "original_index": 41,
+      "question_id": "3005"
+    },
+    {
+      "category": "morality",
+      "original_index": 42,
+      "question_id": "3006"
+    },
+    {
+      "category": "morality",
+      "original_index": 43,
+      "question_id": "3007"
+    },
+    {
+      "category": "morality",
+      "original_index": 44,
+      "question_id": "3008"
+    },
+    {
+      "category": "morality",
+      "original_index": 45,
+      "question_id": "3009"
+    },
+    {
+      "category": "morality",
+      "original_index": 46,
+      "question_id": "3010"
+    },
+    {
+      "category": "morality",
+      "original_index": 47,
+      "question_id": "3011"
+    },
+    {
+      "category": "morality",
+      "original_index": 48,
+      "question_id": "3012"
+    },
+    {
+      "category": "morality",
+      "original_index": 49,
+      "question_id": "3013"
+    },
+    {
+      "category": "morality",
+      "original_index": 50,
+      "question_id": "3014"
+    },
+    {
+      "category": "morality",
+      "original_index": 51,
+      "question_id": "3015"
+    },
+    {
+      "category": "morality",
+      "original_index": 52,
+      "question_id": "3016"
+    },
+    {
+      "category": "morality",
+      "original_index": 53,
+      "question_id": "3017"
+    },
+    {
+      "category": "morality",
+      "original_index": 54,
+      "question_id": "3018"
+    },
+    {
+      "category": "morality",
+      "original_index": 55,
+      "question_id": "3019"
+    },
+    {
+      "category": "morality",
+      "original_index": 56,
+      "question_id": "3020"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 57,
+      "question_id": "4001"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 58,
+      "question_id": "4002"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 59,
+      "question_id": "4003"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 60,
+      "question_id": "4004"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 61,
+      "question_id": "4005"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 62,
+      "question_id": "4006"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 63,
+      "question_id": "4007"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 64,
+      "question_id": "4008"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 65,
+      "question_id": "4009"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 66,
+      "question_id": "4010"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 67,
+      "question_id": "4011"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 68,
+      "question_id": "4012"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 69,
+      "question_id": "4013"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 70,
+      "question_id": "4014"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 71,
+      "question_id": "4015"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 72,
+      "question_id": "4016"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 73,
+      "question_id": "4017"
+    },
+    {
+      "category": "illegal activities & crime",
+      "original_index": 74,
+      "question_id": "4018"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 75,
+      "question_id": "5001"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 76,
+      "question_id": "5002"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 77,
+      "question_id": "5003"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 78,
+      "question_id": "5004"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 79,
+      "question_id": "5005"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 80,
+      "question_id": "5006"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 81,
+      "question_id": "5007"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 82,
+      "question_id": "5008"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 83,
+      "question_id": "5009"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 84,
+      "question_id": "5010"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 85,
+      "question_id": "5011"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 86,
+      "question_id": "5012"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 87,
+      "question_id": "5013"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 88,
+      "question_id": "5014"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 89,
+      "question_id": "5015"
+    },
+    {
+      "category": "controversial topics, politics",
+      "original_index": 90,
+      "question_id": "5016"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 91,
+      "question_id": "6001"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 92,
+      "question_id": "6002"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 93,
+      "question_id": "6003"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 94,
+      "question_id": "6004"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 95,
+      "question_id": "6005"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 96,
+      "question_id": "6006"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 97,
+      "question_id": "6007"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 98,
+      "question_id": "6008"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 99,
+      "question_id": "6009"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 100,
+      "question_id": "6010"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 101,
+      "question_id": "6011"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 102,
+      "question_id": "6012"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 103,
+      "question_id": "6013"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 104,
+      "question_id": "6014"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 105,
+      "question_id": "6015"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 106,
+      "question_id": "6016"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 107,
+      "question_id": "6017"
+    },
+    {
+      "category": "discrimination & stereotyping",
+      "original_index": 108,
+      "question_id": "6018"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 109,
+      "question_id": "7001"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 110,
+      "question_id": "7002"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 111,
+      "question_id": "7003"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 112,
+      "question_id": "7004"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 113,
+      "question_id": "7005"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 114,
+      "question_id": "7006"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 115,
+      "question_id": "7007"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 116,
+      "question_id": "7008"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 117,
+      "question_id": "7009"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 118,
+      "question_id": "7010"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 119,
+      "question_id": "7011"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 120,
+      "question_id": "7012"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 121,
+      "question_id": "7013"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 122,
+      "question_id": "7014"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 123,
+      "question_id": "7015"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 124,
+      "question_id": "7016"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 125,
+      "question_id": "7017"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 126,
+      "question_id": "7018"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 127,
+      "question_id": "7019"
+    },
+    {
+      "category": "religion beliefs",
+      "original_index": 128,
+      "question_id": "7020"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 129,
+      "question_id": "8001"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 130,
+      "question_id": "8002"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 131,
+      "question_id": "8003"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 132,
+      "question_id": "8004"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 133,
+      "question_id": "8005"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 134,
+      "question_id": "8006"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 135,
+      "question_id": "8007"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 136,
+      "question_id": "8008"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 137,
+      "question_id": "8009"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 138,
+      "question_id": "8010"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 139,
+      "question_id": "8011"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 140,
+      "question_id": "8012"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 141,
+      "question_id": "8013"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 142,
+      "question_id": "8014"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 143,
+      "question_id": "8015"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 144,
+      "question_id": "8016"
+    },
+    {
+      "category": "information misinterpretation",
+      "original_index": 145,
+      "question_id": "8017"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 146,
+      "question_id": "9001"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 147,
+      "question_id": "9002"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 148,
+      "question_id": "9003"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 149,
+      "question_id": "9004"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 150,
+      "question_id": "9005"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 151,
+      "question_id": "9006"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 152,
+      "question_id": "9007"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 153,
+      "question_id": "9008"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 154,
+      "question_id": "9009"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 155,
+      "question_id": "9010"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 156,
+      "question_id": "9011"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 157,
+      "question_id": "9012"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 158,
+      "question_id": "9013"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 159,
+      "question_id": "9014"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 160,
+      "question_id": "9015"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 161,
+      "question_id": "9016"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 162,
+      "question_id": "9017"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 163,
+      "question_id": "9018"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 164,
+      "question_id": "9019"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 165,
+      "question_id": "9020"
+    },
+    {
+      "category": "privacy violation",
+      "original_index": 166,
+      "question_id": "9021"
+    }
+  ]
+}
